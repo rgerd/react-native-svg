@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import createReactNativeComponentClass from 'react/lib/createReactNativeComponentClass';
+import createReactNativeComponentClass from 'react-native/Libraries/Renderer/src/renderers/native/createReactNativeComponentClass';
 import {ClipPathAttributes} from '../lib/attributes';
 
 class ClipPath extends Component{
@@ -21,4 +21,3 @@ const RNSVGClipPath = createReactNativeComponentClass({
 });
 
 export default ClipPath;
-
